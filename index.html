@@ -1,8 +1,8 @@
-html
-  <!DOCTYPE html>
-  <html lang="zh-CN">
+<!DOCTYPE html>
+  <html lang="en">
   <head>
-  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kechuan Machinery · Precision Machined Parts &amp; OEM Services</title>                                       
   <style>
   *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
@@ -11,13 +11,13 @@ html
 UI',Roboto,sans-serif;background:#fafaf9;color:#1c1917;line-height:1.6}
   a{text-decoration:none;color:inherit}
   nav{position:fixed;top:0;left:0;width:100%;z-index:100;padding:1rem
-3rem;display:flex;justify-content:space-between;align-items:center;background:rgba(12,10,9,.85);backdrop-filter:blur(12p
-x);border-bottom:1px solid rgba(255,255,255,.06)}
-  nav .logo{font-weight:600;font-size:1rem;letter-spacing:-.02em;color:#fafaf9}
+3rem;display:flex;justify-content:space-between;align-items:center;background:rgba(250,250,249,.92);backdrop-filter:blur
+(12px);border-bottom:1px solid rgba(0,0,0,.04)}
+  nav .logo{font-weight:600;font-size:1rem;letter-spacing:-.02em}
   nav .logo span{color:#d97706}
   nav .nav-links{display:flex;gap:2rem;list-style:none}
-  nav .nav-links a{font-size:.85rem;color:rgba(255,255,255,.65);transition:color .2s}
-  nav .nav-links a:hover{color:#fafaf9}
+  nav .nav-links a{font-size:.85rem;color:#57534e;transition:color .2s}
+  nav .nav-links a:hover{color:#1c1917}
   @media(max-width:768px){nav{padding:1rem 1.5rem}nav .nav-links{gap:1rem}nav .nav-links a{font-size:.8rem}}
   section{padding:6rem 3rem}
   section.dark{background:#1c1917;color:#fafaf9}
@@ -30,27 +30,21 @@ small{display:block;font-size:.75rem;letter-spacing:.3em;text-transform:uppercas
   .hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:8rem 3rem
 6rem;position:relative;overflow:hidden}
   .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 50% at 50%
-30%,rgba(217,119,6,.08),transparent 70%);pointer-events:none}
-  .hero-bg{position:absolute;inset:0;background:linear-gradient(135deg,#0c0a09 0%,#1c1917 30%,#292524 60%,#1c1917
-100%);z-index:-1}
-  .hero-bg-pattern{position:absolute;inset:0;opacity:.08;z-index:-1}
-  .hero-bg-pattern svg{width:100%;height:100%}
+30%,rgba(217,119,6,.06),transparent 70%);pointer-events:none}
   .hero-content{max-width:880px;position:relative;z-index:1}
-  .hero .hero-brand{font-size:1.15rem;letter-spacing:.35em;text-transform:uppercase;color:#a8a29e;margin-bottom:.75rem}
   .hero
-h1{font-size:clamp(2.4rem,5vw,4.2rem);font-weight:600;letter-spacing:-.03em;line-height:1.12;margin-bottom:.3rem;color:#
-fafaf9}
+.hero-brand{font-size:clamp(2rem,4.5vw,4rem);font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#1c1917
+;margin-bottom:.75rem}
+  .hero
+h1{font-size:clamp(1.6rem,3.5vw,2.8rem);font-weight:500;letter-spacing:-.03em;line-height:1.15;margin-bottom:1.2rem}
   .hero h1 em{font-style:normal;color:#d97706}
-  .hero
-.hero-sub{font-size:clamp(1.6rem,3.5vw,3.2rem);font-weight:400;letter-spacing:-.02em;line-height:1.15;margin-bottom:1.5r
-em;color:rgba(255,255,255,.6)}
-  .hero p{font-size:1.1rem;color:#a8a29e;max-width:600px;margin-bottom:2.5rem;line-height:1.8}
+  .hero p{font-size:1.05rem;color:#78716c;max-width:580px;margin-bottom:2.5rem;line-height:1.8}
   .btn{display:inline-flex;align-items:center;gap:.6rem;padding:.85rem
 1.8rem;border-radius:999px;font-size:.9rem;font-weight:500;transition:all .25s;border:none;cursor:pointer}
-  .btn-primary{background:#d97706;color:#1c1917}
-  .btn-primary:hover{background:#f59e0b;transform:translateY(-1px)}
-  .btn-outline{background:transparent;color:#fafaf9;border:1px solid rgba(255,255,255,.2)}
-  .btn-outline:hover{border-color:#d97706;color:#d97706;transform:translateY(-1px)}
+  .btn-primary{background:#1c1917;color:#fafaf9}
+  .btn-primary:hover{background:#44403c;transform:translateY(-1px)}
+  .btn-outline{background:transparent;color:#1c1917;border:1px solid #d6d3d1}
+  .btn-outline:hover{border-color:#1c1917;transform:translateY(-1px)}
   .hero-actions{display:flex;gap:1rem;flex-wrap:wrap}
   @media(max-width:768px){.hero{padding:6rem 1.5rem
 4rem}.hero-actions{flex-direction:column}.btn{justify-content:center}}
@@ -125,31 +119,9 @@ rgba(37,211,102,.35);transition:all .25s;cursor:pointer}
   </nav>
 
   <section class="hero" id="home">
-  <div class="hero-bg"></div>
-  <div class="hero-bg-pattern">
-  <svg viewBox="0 0 1440 800" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-  <radialGradient id="g1" cx="30%" cy="40%" r="60%"><stop offset="0%" stop-color="rgba(217,119,6,.04)"/><stop
-offset="100%" stop-color="transparent"/></radialGradient>
-  <radialGradient id="g2" cx="70%" cy="60%" r="50%"><stop offset="0%" stop-color="rgba(217,119,6,.025)"/><stop
-offset="100%" stop-color="transparent"/></radialGradient>
-  <pattern id="gearGrid" width="80" height="80" patternUnits="userSpaceOnUse">
-  <circle cx="40" cy="40" r="3" fill="rgba(255,255,255,.03)"/>
-  <circle cx="40" cy="40" r="12" fill="none" stroke="rgba(255,255,255,.04)" stroke-width=".8"/>
-  <line x1="28" y1="40" x2="52" y2="40" stroke="rgba(255,255,255,.02)" stroke-width=".5"/>
-  <line x1="40" y1="28" x2="40" y2="52" stroke="rgba(255,255,255,.02)" stroke-width=".5"/>
-  </pattern>
-  </defs>
-  <rect width="100%" height="100%" fill="url(#gearGrid)"/>
-  <rect width="100%" height="100%" fill="url(#g1)"/>
-  <rect width="100%" height="100%" fill="url(#g2)"/>
-  </svg>
-  </div>
-  <div class="hero-overlay"></div>
   <div class="hero-content">
   <div class="hero-brand">KECHUAN MACHINERY</div>
-  <h1>精密机械零部件<br>从图纸到交付<em> — 全球供货</em></h1>                                                          
-  <h1 class="hero-sub">Precision Machined Parts<br>From Drawing to Delivery<em> — Worldwide</em></h1>                  
+  <h1>Precision Machined Parts<br>From Drawing to Delivery<em> — Worldwide</em></h1>                                   
   <p>Specializing in OEM/ODM custom gears, sprockets, shafts, and mechanical components. We machine to your exact
 specifications — ANSI, DIN, ISO standards, all materials.</p>                                                          
   <div class="hero-actions">
@@ -164,14 +136,13 @@ specifications — ANSI, DIN, ISO standards, all materials.</p>
 style="color:#78716c;font-size:.9rem;margin-top:.5rem">Send us your CAD or PDF, we handle the rest.</p></div>
   <div class="oem-steps">
   <div class="oem-step"><div class="step-icon">&#128196;</div><div class="step-num">1</div><h3>Upload Your
-Drawings</h3><p>Send your CAD, PDF, or hand sketch with material &amp; quantity requirements. We accept all common
-formats.</p></div>
+Drawings</h3><p>Send your CAD, PDF, or hand sketch with material &amp; quantity requirements.</p></div>
   <div class="oem-step"><div class="step-icon">&#128269;</div><div class="step-num">2</div><h3>Engineering Review &amp;
 Quote</h3><p>Our team reviews your specifications and responds with a competitive quote within <strong>24
 hours</strong>.</p></div>
   <div class="oem-step"><div class="step-icon">&#9881;&#65039;</div><div class="step-num">3</div><h3>Precision
 Manufacturing &amp; Delivery</h3><p>From prototype to mass production — hobbing, milling, heat treatment, and surface  
-finishing, all controlled in-house.</p></div>
+finishing.</p></div>
   </div>
   </section>
 
